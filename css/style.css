@@ -1,0 +1,219 @@
+body {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.partesuperior {
+    width: 100%;
+    height: 400px;
+    border-radius: 80px;
+    background-color: blue;
+    position: relative;
+    top: -100px;
+
+    & .buscador {
+        position: absolute;
+        top: 150px;
+        left: 32%;
+    }
+
+    & .titulosecundario {
+        position: absolute;
+        top: 270px;
+        left: 30px;
+        color: grey;
+        font-size: large;
+    }
+
+    & .tituloprincipal {
+        position: absolute;
+        top:300px;
+        left: 30px;
+        color: white;
+        font-size: xx-large;
+    }
+
+    & .precionuevo {
+        position: absolute;
+        top: 350px;
+        left: 30px;
+        color: skyblue;
+        font-size: x-large;
+    }
+
+    & .precioviejo {
+        position: absolute;
+        top: 357px;
+        left: 110px;
+        color: gray;
+        font-size: small;
+        text-decoration: line-through;
+    }
+   
+}
+
+.partemedia {
+    width: 100%;
+    height: 320px;
+    background-color: aqua;
+    position: relative;
+    top: -70px;
+    display: flex;
+    gap: 10px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+
+    & .subtituloizquierdamedio {
+        position: absolute;
+        left: 30px;
+        top: 10px;
+        color: black;
+        font-size: larger;
+    }
+
+    & .subtituloderechamedio {
+        position: absolute;
+        left: 88%;
+        top: 18px;
+        color: rgb(0, 168, 235);
+    }
+
+    & .card {
+        width: 150px;
+        height: 230px;
+        background-color: red;
+        border-radius: 10px;
+        position: relative;
+        top: 70px;
+        left: 30px;
+
+        & .img {
+            width: 100%;
+            height: 65%;
+            border-radius: 10px;
+            background-color: blue;
+        }
+
+        & .nombrearticulo {
+            position: absolute;
+            top: 70%;
+            left: 19px;
+            font-size: larger;
+        }
+
+        & .precionuevoarticulo {
+            position: absolute;
+            top: 82%;
+            left: 19px;
+            font-size: large;
+        }
+
+        & .precioviejoarticulo {
+            position: absolute;
+            top: 84%;
+            left: 95px;
+            font-size: small;
+            text-decoration: line-through;
+        }
+
+    }
+
+}
+
+.partebaja {
+    width: 100%;
+    height: 320px;
+    background-color: aqua;
+    position: relative;
+    top: -65px;
+
+    & .subtituloizquierdabajo {
+        position: absolute;
+        left: 30px;
+        top: 10px;
+        color: black;
+        font-size: larger;
+    }
+
+    & .subtituloderechabajo {
+        position: absolute;
+        left: 88%;
+        top: 18px;
+        color: rgb(0, 168, 235);
+    }
+
+    & .categoriamujer {
+        width: 90%;
+        height: 70px;
+        background-color: red;
+        border-radius: 10px;
+        position: relative;
+        top: 70px;
+        left: 5%;
+
+        & .item1 {
+            position: absolute;
+            color: black;
+            height: 100px;
+            width: 10%;
+            font-size: 40px;
+            display: grid;
+            place-items: center;
+            top: -15px;
+        }
+
+        & .nombreitemmujer{
+            position: absolute;
+            font-size: x-large;
+            left: 15%;
+            top: 32%;
+        }
+
+        & .picoarriba {
+            position: absolute;
+            left: 90%;
+            top: 18px;
+            font-size: xx-large;
+        }
+
+    }
+
+    & .categoriahombre {
+        width: 90%;
+        height: 70px;
+        background-color: red;
+        border-radius: 10px;
+        position: relative;
+        top: 80px;
+        left: 5%;
+
+        div.item2 {
+            position: absolute;
+            color: black;
+            height: 100px;
+            width: 10%;
+            font-size: 40px;
+            display: grid;
+            place-items: center;
+            top: -15px;
+        }
+
+        & .nombreitemhombre{
+            position: absolute;
+            font-size: x-large;
+            left: 15%;
+            top: 32%;
+        }
+
+        & .picoabajo {
+            position: absolute;
+            left: 90%;
+            top: 18px;
+            font-size: xx-large;
+        }
+
+    }    
+
+}
