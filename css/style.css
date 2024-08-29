@@ -15,6 +15,7 @@ body {
 }
 
 
+
 .header {
     padding: 1em;
   }
@@ -24,6 +25,11 @@ body {
     height: 400px;
     border-radius: 80px;
     background-color: blue;
+    background-image: url(https://7am.events/magazine/wp-content/webp-express/webp-images/uploads/2023/05/Maldonado-Ciudad-Uruguay.jpg.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
     position: relative;
     top: -100px;
 
@@ -73,7 +79,7 @@ body {
     height: 320px;
     background-color: white;
     position: relative;
-    
+
     top: -70px;
 
     & .subtituloizquierdamedio {
@@ -241,4 +247,12 @@ body {
 
     }    
 
+}
+
+
+
+@media (orientation=portrait){
+    .partesuperior{
+        background-image: url(https://7am.events/magazine/wp-content/webp-express/webp-images/uploads/2023/04/maldonado-uruguay.png.webp);
+    }
 }

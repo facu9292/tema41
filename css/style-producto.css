@@ -124,3 +124,14 @@ body {
       }
 
 }
+
+.talle{
+    background-color: gray;
+    font-size: 14px;
+}
+
+.talle:focus{
+    background-color: rgb(73, 134, 247);
+    color: whitesmoke;
+    font-size: 16px;
+}
