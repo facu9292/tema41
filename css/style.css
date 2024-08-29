@@ -63,10 +63,6 @@ body {
     background-color: aqua;
     position: relative;
     top: -70px;
-    display: flex;
-    gap: 10px;
-    overflow-x: scroll;
-    overflow-y: hidden;
 
     & .subtituloizquierdamedio {
         position: absolute;
@@ -83,45 +79,58 @@ body {
         color: rgb(0, 168, 235);
     }
 
-    & .card {
-        width: 150px;
-        height: 230px;
-        background-color: red;
-        border-radius: 10px;
+    & .scrol {
+
+        display: flex;
+        overflow-x: scroll;
+        overflow-y: hidden;
         position: relative;
+        gap: 10px;
         top: 70px;
-        left: 30px;
 
-        & .img {
-            width: 100%;
-            height: 65%;
+        & .card {
+            width: 150px;
+            height: 230px;
+            background-color: red;
             border-radius: 10px;
-            background-color: blue;
+            position: relative;
+            top: 70px;
+            left: 30px;
+            
+    
+            & .img {
+                width: 100%;
+                height: 65%;
+                border-radius: 10px;
+                background-color: blue;
+            }
+    
+            & .nombrearticulo {
+                position: absolute;
+                top: 70%;
+                left: 19px;
+                font-size: larger;
+            }
+    
+            & .precionuevoarticulo {
+                position: absolute;
+                top: 82%;
+                left: 19px;
+                font-size: large;
+            }
+    
+            & .precioviejoarticulo {
+                position: absolute;
+                top: 84%;
+                left: 95px;
+                font-size: small;
+                text-decoration: line-through;
+            }
+    
         }
-
-        & .nombrearticulo {
-            position: absolute;
-            top: 70%;
-            left: 19px;
-            font-size: larger;
-        }
-
-        & .precionuevoarticulo {
-            position: absolute;
-            top: 82%;
-            left: 19px;
-            font-size: large;
-        }
-
-        & .precioviejoarticulo {
-            position: absolute;
-            top: 84%;
-            left: 95px;
-            font-size: small;
-            text-decoration: line-through;
-        }
-
     }
+
+    
 
 }
 
