@@ -1,3 +1,4 @@
+/* Estilo general */
 body {
     font-family: Arial, Helvetica, sans-serif;
     height: 100%;
@@ -6,22 +7,27 @@ body {
     margin: 0;
 }
 
+/* Parte alta */
 .partealta {
     width: 100%;
     height: 60px;
     background-color: white;
     position: relative;
+    box-sizing: border-box; /* Asegura que el padding y border estén incluidos en el tamaño total */
 
-    div.volver {
+    /* Botón volver */
+    .volver {
         color: black;
-        font-size: 40px;
+        font-size: 24px; /* Tamaño de fuente ajustado para móviles */
         height: auto;
         width: auto;
         position: absolute;
         top: 10px;
-        left: 25px;
-        border-radius: 100px;
+        left: 10px; /* Ajustado para móviles */
+        border-radius: 50%; /* Más redondeado */
         text-align: center;
+        padding: 10px;
+        transition: background-color 0.3s, transform 0.3s;
     }
 
     .volver:hover {
@@ -29,112 +35,115 @@ body {
         transform: translateY(-2px); /* Levanta el botón ligeramente */
     }
 
-    & .titulo {
+    .titulo {
         position: absolute;
         color: black;
-        font-size: x-large;
+        font-size: 20px; /* Tamaño de fuente ajustado para móviles */
         top: 20px;
-        left: 100px;
+        left: 50%; /* Centra el título horizontalmente */
+        transform: translateX(-50%); /* Centra el título horizontalmente */
     }
 }
 
+/* Parte media */
 .partemedia {
     width: 100%;
-    height: 400px;
+    height: auto; /* Altura automática para adaptarse al contenido */
     background-color: aqua;
     position: relative;
-    top: 5px;
+    box-sizing: border-box; /* Asegura que el padding y border estén incluidos en el tamaño total */
+    padding: 10px 0; /* Espaciado en el contenedor */
 
-    & .producto {
-        position: absolute;
+    .producto {
+        position: relative;
         height: 140px;
         width: 100%;
         background-color: brown;
-        top: 15px;
+        margin-bottom: 10px; /* Espacio entre productos */
 
-        & .img {
-            position: absolute;
+        .img {
             width: 90px;
             height: 90px;
             background-color: blue;
+            position: absolute;
             top: 25px;
-            left: 25px;
+            left: 10px; /* Ajustado para móviles */
         }
 
-        & .nombreproducto {
+        .nombreproducto,
+        .tallecolo,
+        .precio,
+        .cantidadproducto {
             position: absolute;
+            color: white;
+            left: 120px; /* Ajustado para móviles */
+        }
+
+        .nombreproducto {
             top: 37px;
-            left: 135px;
-            color: white;
         }
 
-        & .tallecolo {
-            position: absolute;
-            color: white;
-            font-size: small;
-            left: 135px;
+        .tallecolo {
             top: 67px;
+            font-size: small; /* Tamaño de fuente ajustado */
         }
 
-        & .precio {
-            position: absolute;
-            color: white;
+        .precio {
+            top: 92px;
             font-size: large;
-            top: 92px;
-            left: 135px;
         }
 
-        & .cantidadproducto {
-            position: absolute;
-            color: white;
-            font-size: medium;
+        .cantidadproducto {
             top: 92px;
-            left: 185px;
+            left: 180px; /* Ajustado para móviles */
+            font-size: medium;
         }
     }
-
 }
 
+/* Parte baja */
 .partebaja {
     width: 100%;
-    height: 120px;
+    height: auto; /* Altura automática para adaptarse al contenido */
     background-color: white;
     position: relative;
-    top: 15px;
+    box-sizing: border-box; /* Asegura que el padding y border estén incluidos en el tamaño total */
+    padding: 10px; /* Espaciado en el contenedor */
 
-    & .total {
+    .total {
         position: absolute;
         top: 20px;
-        left: 25px;
+        left: 10px; /* Ajustado para móviles */
+        font-size: large; /* Tamaño de fuente ajustado */
     }
 
-    & .precio {
+    .precio {
         font-size: x-large;
         position: absolute;
         top: 20px;
-        left: 91%;
+        right: 10px; /* Ajustado para móviles */
     }
 
     .btn-advanced {
-        width: 96%;
+        width: calc(100% - 20px); /* Ajusta el botón para que tenga un margen de 10px a los lados */
         background-color: rgb(0, 141, 197); /* Color de fondo inicial */
         color: white; /* Color del texto */
         border: 2px solid transparent; /* Borde transparente */
         border-radius: 10px; /* Bordes redondeados */
-        padding: 10px 20px; /* Espaciado interno */
+        padding: 10px; /* Espaciado interno */
         font-size: 16px; /* Tamaño de la fuente */
         cursor: pointer; /* Muestra un cursor de mano */
         transition: all 0.3s ease; /* Transición suave para todos los cambios */
+        margin: 10px; /* Margen ajustado */
+        box-sizing: border-box; /* Asegura que el padding y border estén incluidos en el tamaño total */
         position: relative;
-        left: 25px;
-        top: 60px;
-      }
-      
-      .btn-advanced:hover {
+        top: 40px;
+    }
+
+    .btn-advanced:hover {
         background-color: rgb(0, 183, 255); /* Nuevo color de fondo al pasar el cursor */
         border-color: rgb(0, 183, 255); /* Color del borde en hover */
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra alrededor del botón */
         transform: translateY(-5px); /* Levanta el botón ligeramente */
-      }
-
+    }
 }
