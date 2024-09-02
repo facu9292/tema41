@@ -1,0 +1,102 @@
+[
+    {
+        "id": 0,
+        "name": "Blue Denim Jacket",
+        "priceNew": "$45.00",
+        "priceOld": "$60.00",
+        "img": {
+            "src": "./img/producto0.jpg",
+            "alt": ""
+        }
+    },
+    {
+        "id": 1,
+        "name": "Red Flannel Shirt",
+        "priceNew": "$30.00",
+        "priceOld": "$40.00",
+        "img": {
+            "src": "./img/producto1.jpg",
+            "alt": ""
+        }
+    },
+    {
+        "id": 2,
+        "name": "Black Leather Pants",
+        "priceNew": "$70.00",
+        "priceOld": "$90.00",
+        "img": {
+            "src": "./img/producto2.jpg",
+            "alt": ""
+        }
+    },
+    {
+        "id": 3,
+        "name": "White Cotton T-Shirt",
+        "priceNew": "$20.00",
+        "priceOld": "$25.00",
+        "img": {
+            "src": "./img/producto3.jpg",
+            "alt": ""
+        }
+    },
+    {
+        "id": 4,
+        "name": "Green Bomber Jacket",
+        "priceNew": "$50.00",
+        "priceOld": "$65.00",
+        "img": {
+            "src": "./img/producto4.jpg",
+            "alt": ""
+        }
+    },
+    {
+        "id": 5,
+        "name": "Grey Wool Sweater",
+        "priceNew": "$55.00",
+        "priceOld": "$70.00",
+        "img": {
+            "src": "./img/producto5.jpg",
+            "alt": ""
+        }
+    },
+    {
+        "id": 6,
+        "name": "Patterned Scarf",
+        "priceNew": "$25.00",
+        "priceOld": "$35.00",
+        "img": {
+            "src": "./img/producto6.jpg",
+            "alt": ""
+        }
+    },
+    {
+        "id": 7,
+        "name": "Striped Polo Shirt",
+        "priceNew": "$35.00",
+        "priceOld": "$50.00",
+        "img": {
+            "src": "./img/producto7.jpg",
+            "alt": ""
+        }
+    },
+    {
+        "id": 8,
+        "name": "Casual Khaki Pants",
+        "priceNew": "$40.00",
+        "priceOld": "$55.00",
+        "img": {
+            "src": "./img/producto8.jpg",
+            "alt": ""
+        }
+    },
+    {
+        "id": 9,
+        "name": "Navy Blazer",
+        "priceNew": "$85.00",
+        "priceOld": "$100.00",
+        "img": {
+            "src": "./img/producto9.jpg",
+            "alt": ""
+        }
+    }
+]
