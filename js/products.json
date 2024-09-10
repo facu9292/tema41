@@ -4,8 +4,10 @@
         "name": "Blue Denim Jacket",
         "priceNew": "$45.00",
         "priceOld": "$60.00",
+        "sizes": ["s", "m", "l", "xl", "xxl"],
+        "color": ["red", "white"],
         "img": {
-            "src": "./img/producto0.jpg",
+            "src": "./img/remeramacho.jpg",
             "alt": ""
         }
     },
@@ -14,6 +16,7 @@
         "name": "Red Flannel Shirt",
         "priceNew": "$30.00",
         "priceOld": "$40.00",
+        "talles": "s,m,l,xl,xxl",
         "img": {
             "src": "./img/producto1.jpg",
             "alt": ""

@@ -119,11 +119,12 @@ body {
             left: 30px;
             
     
-            & .img {
+            & .imagenprin {
                 width: 100%;
-                height: 65%;
+                height: 150px;
                 border-radius: 10px;
-                background-color: blue;
+                margin-left: 0%;
+                object-fit: cover;
             }
     
             & .nombrearticulo {
@@ -135,14 +136,14 @@ body {
     
             & .precionuevoarticulo {
                 position: absolute;
-                top: 82%;
+                top: 89%;
                 left: 19px;
                 font-size: large;
             }
     
             & .precioviejoarticulo {
                 position: absolute;
-                top: 84%;
+                top: 87%;
                 left: 95px;
                 font-size: small;
                 text-decoration: line-through;
