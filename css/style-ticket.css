@@ -1,0 +1,92 @@
+/* General body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Ticket container */
+.ticket {
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+}
+
+.ticket-header {
+    text-align: center;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.ticket-header h1 {
+    margin: 0;
+    color: #3498db;
+}
+
+.ticket-date {
+    font-size: 0.9em;
+    color: #555;
+}
+
+.ticket-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.ticket-item {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.ticket-imagen {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-right: 15px;
+}
+
+.ticket-info {
+    flex: 1;
+}
+
+.ticket-info h2 {
+    font-size: 1.2em;
+    margin: 0;
+    color: #333;
+}
+
+.ticket-precio, .ticket-total {
+    font-weight: bold;
+    color: #e74c3c;
+}
+
+.ticket-footer {
+    text-align: center;
+    border-top: 2px solid #3498db;
+    padding-top: 10px;
+    margin-top: 20px;
+}
+
+.ticket-footer p {
+    margin: 5px 0;
+}
+
+.ticket-footer a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+.ticket-footer a:hover {
+    text-decoration: underline;
+}

@@ -19,7 +19,15 @@ document.addEventListener('DOMContentLoaded', () => {
                         <button class="btn-sumar">+</button>
                     </div>
                 </div>
+                    <div class="partebaja">
+             </div>
             </div>
+                   <a href="./ticket.html">
+            <button class="btn-advanced">Add to cart</button>
+        </a>
+                            <a href="./index.html">
+        <div class="volver"><i class="fa-solid fa-arrow-left"></i></div>
+        </a>
         `;
         carritoItems.innerHTML += itemHTML;
     };
